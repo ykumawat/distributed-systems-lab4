@@ -1,0 +1,32 @@
+{
+  "name": "@microservices/subscription",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "> TODO: description",
+  "author": "Yagiz Nizipli <yagiz@nizipli.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.2.12",
+    "@grpc/proto-loader": "^0.6.0",
+    "amqplib": "^0.7.1",
+    "consola": "^2.15.3",
+    "dayjs": "^1.10.4",
+    "eslint": "^7.24.0",
+    "kafkajs": "^1.15.0",
+    "knex": "^0.95.4",
+    "mali": "^0.41.2",
+    "pg": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}
